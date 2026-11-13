@@ -92,6 +92,13 @@ teams:
     maintainers:
       - eloi010
       - ivokub
+  - name: team-docs
+    maintainers:
+      - jimmeilin
+    members:
+      - alexandratran
+      - bgravenorst
+      - joshuafernandes
 repositories:
   - name: .github
     teams:
@@ -120,4 +127,10 @@ repositories:
       lineth-maintain: maintain
       lineth-write: write
       lineth-triage: triage
+    visibility: public
+  - name: lineth-docs
+    teams:
+      lineth-admin: admin
+      lf-staff: maintain
+      team-docs: admin
     visibility: public
